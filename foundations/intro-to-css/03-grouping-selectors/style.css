@@ -1,1 +1,18 @@
-/* Add CSS Styling */
+.Touch,
+#Dont_he_but_me {
+    
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+
+}
+
+.Touch {
+
+    background-color: black;
+    color: white;
+}
+
+#Dont_he_but_me {
+
+    background-color: yellow;
+}
