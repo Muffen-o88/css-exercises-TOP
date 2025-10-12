@@ -1,1 +1,31 @@
-/* Add CSS Styling */
+
+.normal-especific-number,
+.im-especial {
+
+background-color: #ffb6c1;
+font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+
+}
+
+.im-especial {
+
+    font-size: 24px;
+
+
+}
+
+#oddly-especific-number {
+
+    color: blue;
+    font-size: 36px;
+
+}
+
+
+#Strange-especific-number {
+
+  background-color: green;
+  font-weight: bold;
+  font-size: 24px;
+
+}
