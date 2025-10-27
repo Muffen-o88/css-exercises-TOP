@@ -7,21 +7,20 @@ body {
   width: 400px;
   background: #fff;
   margin: 8px auto;
-  padding: 12px;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
   padding: 8px;
   font-size: 20px;
-  padding-left: -2px;
-  padding-right: -2px;
+  margin: 8px;
 }
 
 .content {
   background: #e3f4ff;
   margin: 8px;
-  padding: 8px;
+  padding: 16px 8px 16px 8px;
 }
 /*Refaça os codigos, olhando a checklist*/
 
@@ -29,13 +28,13 @@ body {
   background: #e3f4ff;
   margin: 8px;
   text-align: center;
-  padding: 18px;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding: 22px;
+  padding-left: 124px;
+  padding-right: 124px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding: 8px;
+  padding: 8px 24px 8px 24px;
 }
