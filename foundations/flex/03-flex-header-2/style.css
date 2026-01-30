@@ -19,11 +19,11 @@ body {
 
 .Container-left{
 display: flex;
-justify-content: space-between;
 }
 
 .Container-right {
   display: flex;
+  gap: 15px;
 }
 .profile-image {
   background: rebeccapurple;
@@ -58,9 +58,4 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 10px;
-  align-self: flex-start;
-}
-
-#notification {
-  align-self: flex-end;
 }
