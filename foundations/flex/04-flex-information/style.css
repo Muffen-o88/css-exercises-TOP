@@ -2,6 +2,11 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.content{
+display: flex;
+flex-flow: row;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -14,10 +19,9 @@ img {
   justify-content: center;
 }
 
-.Plants {
+ .text{
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 /* do not edit this footer */
