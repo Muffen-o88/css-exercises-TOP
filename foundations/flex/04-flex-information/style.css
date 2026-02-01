@@ -5,11 +5,16 @@ body {
 .content{
 display: flex;
 flex-flow: row;
+gap: 52px;
+justify-content: space-around;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+}
+.img-P{
+  display: flex;
 }
 
 .title {
@@ -17,11 +22,18 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
+}
+
+.Plants{
+  flex-flow: wrap;
+  align-items: center;
 }
 
  .text{
   display: flex;
-  justify-content: flex-end;
+  text-align: center;
+
 }
 
 /* do not edit this footer */
