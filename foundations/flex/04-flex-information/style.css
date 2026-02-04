@@ -4,7 +4,7 @@ body {
 
 .content{
 display: flex;
-flex-flow: row;
+flex-flow: row wrap;
 gap: 52px;
 justify-content: space-around;
 }
@@ -13,9 +13,7 @@ img {
   width: 150px;
   height: 150px;
 }
-.img-P{
-  display: flex;
-}
+
 
 .title {
   font-size: 36px;
@@ -26,14 +24,16 @@ img {
 }
 
 .Plants{
-  flex-flow: wrap;
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
 }
 
  .text{
   display: flex;
-  text-align: center;
-
+  text-align: center;  
+  flex-flow: row;
+  justify-content: space-around;
 }
 
 /* do not edit this footer */
