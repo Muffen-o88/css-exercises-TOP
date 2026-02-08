@@ -4,14 +4,17 @@ body {
 
 .content{
 display: flex;
-flex-flow: row wrap;
 gap: 52px;
 justify-content: space-around;
+margin: 2vh;
+flex-flow: row wrap;
 }
 
 img {
   width: 150px;
   height: 150px;
+  display: flex;
+  flex: 0 0 auto;
 }
 
 
@@ -26,14 +29,15 @@ img {
 .Plants{
   display: flex;
   justify-content: space-around;
-  flex-flow: row;
+  flex-flow: row wrap;
+  width: 205px;
+  height: 205px;
 }
 
  .text{
   display: flex;
   text-align: center;  
-  flex-flow: row;
-  justify-content: space-around;
+  flex: 0 1 auto;
 }
 
 /* do not edit this footer */
