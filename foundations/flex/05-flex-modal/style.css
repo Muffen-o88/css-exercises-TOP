@@ -22,11 +22,12 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.top-items{
-  display: flex;
-  justify-content: space-between;
+
+.header{
+  text-align: center;
 }
 
 .icon {
@@ -62,6 +63,10 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.can-n-con-buttons {
+  display: flex;
 }
 
 button.continue {
