@@ -23,10 +23,14 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
 }
 
 .content{ 
   order: 2;
+  align-content: space-around;
+  flex: 1 1 auto;
 }
 
 
@@ -43,6 +47,12 @@ body {
   justify-content: center;
   margin-bottom: auto;
   order: 1;
+  flex: 0 0 auto;
+}
+
+.header{
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .close-button {
@@ -59,6 +69,7 @@ body {
   border: 1px solid #eee;
   padding: 0;
   order: 3;
+  flex: 0 0 auto;
 }
 
 button {
