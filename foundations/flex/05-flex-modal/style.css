@@ -21,14 +21,14 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   justify-content: space-around;
 }
 
-
-.header{
-  text-align: center;
+.content{ 
+  order: 2;
 }
+
 
 .icon {
   color: royalblue;
@@ -42,6 +42,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: auto;
+  order: 1;
 }
 
 .close-button {
@@ -57,6 +58,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  order: 3;
 }
 
 button {
@@ -65,9 +67,6 @@ button {
   border-radius: 8px;
 }
 
-.can-n-con-buttons {
-  display: flex;
-}
 
 button.continue {
   background: royalblue;
