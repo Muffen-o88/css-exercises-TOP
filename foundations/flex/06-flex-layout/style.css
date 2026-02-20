@@ -5,12 +5,28 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  display: flex;
+
 }
 
 .header{
-  flex-flow: row;
-  flex: 1 1 auto;
+  flex-flow: row ;
+  flex: 1;
+  display: flex;
+}
+
+.left-links, .right-links {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.left-links{
+  margin-right: 0;
+  display: flex;
+}
+
+.right-links{
+  align-self: flex-end;
+  display: flex;
 }
 
 img {
