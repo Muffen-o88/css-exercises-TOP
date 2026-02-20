@@ -5,6 +5,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+}
+
+.header{
+  flex-flow: row;
+  flex: 1 1 auto;
 }
 
 img {
