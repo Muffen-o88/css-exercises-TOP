@@ -8,29 +8,37 @@ body {
 
 }
 
-.header{
-  flex-flow: row ;
+.header, .footer{
+  flex-flow: row;
   flex: 1;
   display: flex;
 }
 
-.left-links, .right-links {
+.left-links, .right-links,
+.footer.left,.footer.right {
   display: flex;
   list-style: none;
   text-decoration: none;
+  gap: 5px;
+  padding: 5px;
+  align-items: center;
 }
-.left-links{
-  margin-right: 0;
-  display: flex;
+.left-links, .footer.left{
+  margin-right: auto;
 }
 
-.right-links{
+.right-links, .footer.right{
   align-self: flex-end;
+}
+
+.content {
   display: flex;
+  flex-flow: row wrap;
 }
 
 img {
   width: 600px;
+  flex: 1 1 0%;
 }
 
 button {
@@ -45,4 +53,5 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  flex: 1;
 }
