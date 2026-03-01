@@ -11,15 +11,17 @@ body {
   background: darkmagenta;
   color: white;
   display: flex;
-  order: 1 1 auto;
+  flex: 0 1 auto;
+  order: 1;
+  align-items: center;
+  font-weight: 900;
+  font-size: 25px;
 }
 
 .content {
   display: flex;
-  justify-content: space-around;
   order: 3;
-  align-items: flex-end;
-  align-self: flex-end;
+  flex-flow: row wrap;
 }
 
 .footer {
@@ -38,16 +40,14 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
-  flex: 1 0 0%;
+  flex: 1 0 auto;
   order: 2;
-  margin-bottom: ;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  display: flex;
-  flex: 1;
-  align-self: flex-end;
+  flex: 0 1 50px;
+  
 }
