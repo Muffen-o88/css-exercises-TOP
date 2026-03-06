@@ -12,7 +12,6 @@ body {
   color: white;
   display: flex;
   flex: 0 1 auto;
-  order: 1;
   align-items: center;
   font-weight: 900;
   font-size: 25px;
@@ -20,8 +19,7 @@ body {
 
 .content {
   display: flex;
-  order: 2;
-  flex-flow: row wrap;
+  flex-flow: wrap;
 }
 
 .footer {
@@ -31,7 +29,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  order: 4;
 }
 
 .sidebar {
@@ -40,8 +37,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
-  flex: 1 0 600px;
-  order: 3;
+  flex: 0 1 300px;
 }
 
 .card {
@@ -50,6 +46,6 @@ body {
   border-radius: 4px;
   display: flex;
   order: 2;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 250px;
+  max-height: 400px;
 }
